@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This is My Book Store, Welcome</p>
+    </div>
+    <form action="" method="get">
+      <div>
+        <label for="books-select"></label>
+        <!-- 
+          multiple
+        -->
+        <select name="Book" id="books-select">
+          <optgroup label="Romantic Books">
+            <option value="Book 1">Book 1</option>
+            <option value="Book 2">Book 2</option>
+            <option value="Book 3">Book 3</option>
+          </optgroup>
+          <optgroup label="Police Books">
+            <option value="Book 4" selected>Book 4</option>
+            <option value="Book 5">Book 5</option>
+            <option value="Book 6">Book 6</option>
+          </optgroup>
+        </select>
+      </div>
+      <hr>
+      <textarea name="subject" id="" cols="20" rows="5" placeholder="Test textarea"></textarea>
+      <br />
+      <input type="reset" value="reset" />
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>

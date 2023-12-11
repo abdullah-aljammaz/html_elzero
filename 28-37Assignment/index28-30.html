@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#" method="get">
+      <div>
+        <input
+          type="text"
+          id="Token-label"
+          name="Token"
+          value="b92f1fc2fce391ad7af633723afd3055"
+          hidden
+        />
+      </div>
+      <div>
+        <label for="Email-label">Enter Your Email</label>
+        <input
+          type="text"
+          id="Email-label"
+          name="Email"
+          value="o@o.com"
+          readonly
+        />
+      </div>
+      <br />
+      <div>
+        <label for="Username-label">Enter Your Username</label>
+        <input
+          type="text"
+          id="Username-label"
+          name="Username"
+          autofocus
+          required
+          minlength="5"
+          maxlength="20"
+        />
+      </div>
+      <hr />
+      <div>
+        <input
+          type="checkbox"
+          id="Problem-Solving"
+          name="skills"
+          value="Problem-Solving"
+          checked
+        />
+        <label for="Problem-Solving">Problem Solving</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="Logical-Thinking"
+          name="skills"
+          value="Logical-Thinking"
+        />
+        <label for="Logical-Thinking">Logical Thinking</label>
+      </div>
+      <div>
+        <input
+          type="checkbox"
+          id="Advanced-Search"
+          name="skills"
+          value="Advanced-Search"
+          checked
+        />
+        <label for="Advanced-Search">Advanced Search</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Analysis" name="Analysis" value="Analysis" />
+        <label for="Analysis">Analysis</label>
+      </div>
+      <hr />
+      <div>
+        <input
+          id="Front-End"
+          type="radio"
+          name="Job"
+          value="Front-End"
+          checked
+        />
+        <label for="Front-End">Front-End Developer</label>
+      </div>
+      <div>
+        <input id="Back-End" type="radio" name="Job" value="Back-End" />
+        <label for="Back-End">Back-End Developer</label>
+      </div>
+      <div>
+        <input
+          id="Business-Analyst"
+          type="radio"
+          name="Job"
+          value="Business-Analyst"
+          checked
+        />
+        <label for="Business-Analyst">Business Analyst</label>
+      </div>
+      <div>
+        <input id="Project-Manager" type="radio" name="Job" value="Project-Manager" />
+        <label for="Project-Manager">Project Manager</label>
+      </div>
+
+    <hr>
+    <form action="#" method="get">
+    <label for="select-menu">Choose Book:</label>
+    <select name="select-menu" id="select-menu">
+      <optgroup label="PHP"></optgroup>
+      <option value="PHP-v5.0">v5.0</option>
+      <option value="PHP-v6.0">v6.0</option>
+      <option value="PHP-v7.0">v7.0</option>
+      <optgroup label="Python">
+        <option value="Python-v2.0" selected>v2.0</option>
+        <option value="Python-v3.0">v3.0</option>
+        <option value="Python-v3.9">v3.9</option>
+      </optgroup>
+    </select>
+    <hr>
+
+    <textarea name="brief" id="TextArea-id" cols="30" rows="10" placeholder="Write Here Why you Want To Learn Programming"></textarea>
+    <hr>
+    <input type="reset" value="Empty" />
+    <input type="submit" value="Send" />    
+  </form>
+  </body>
+</html>

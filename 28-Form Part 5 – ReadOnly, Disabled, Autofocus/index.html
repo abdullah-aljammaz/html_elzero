@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Store</title>
+  </head>
+  <body>
+    <div>
+      <h1>Book Store</h1>
+      <p>This is My Book Store, Welcome</p>
+    </div>
+    <form action="" method="get">
+      <input type="hidden" value="Osama" />
+      <div>
+        <label>Username</label>
+        <input
+          type="text"
+          required
+          placeholder="Username"
+          name="user"
+          readonly
+          value="Abdullah"
+        />
+      </div>
+      <br />
+      <div>
+        <label>Subject</label>
+        <input type="text" name="subject" autofocus />
+      </div>
+      <br />
+      <div>
+        <label>Password</label>
+        <input
+          type="password"
+          required
+          placeholder="Write A Complex Password"
+          name="password"
+          minlength="10"
+          maxlength="20"
+        />
+      </div>
+      <br />
+      <div>
+        <label>email</label>
+        <input
+          type="email"
+          required
+          placeholder="Write A Valid Email"
+          value="o@nn.sa"
+          name="email"
+          disabled
+        />
+      </div>
+      <br />
+      <div>
+        <label>Color</label>
+        <input type="color" name="color" />
+      </div>
+      <br />
+      <div>
+        <!-- 
+          min
+          max
+          step
+          value
+        -->
+        <label>Range</label>
+        <input
+          type="range"
+          name="range"
+          min="10"
+          max="50"
+          step="10"
+          value="20"
+        />
+      </div>
+      <br />
+      <div>
+        <!-- 
+          min
+          max
+          step
+          value
+        -->
+        <label>Number</label>
+        <input
+          type="number"
+          name="number"
+          step="10"
+          value="20"
+          min="10"
+          max="100"
+        />
+      </div>
+      <input type="reset" value="reset" />
+      <input type="submit" value="Save" />
+    </form>
+  </body>
+</html>
